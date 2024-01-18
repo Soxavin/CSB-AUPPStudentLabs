@@ -1,0 +1,10 @@
+Student 1: Mathematics 75, Physics 80, Chemistry 82, Science 78, English 79
+Student 2: Mathematics 68, Physics 72, Chemistry 66, Science 70, English 71
+Student 3: Mathematics 80, Physics 78, Chemistry 80, Science 82, English 81
+Student 4: Mathematics 72, Physics 75, Chemistry 73, Science 74, English 76
+Student 5: Mathematics 78, Physics 80, Chemistry 81, Science 79, English 80
+Student 6: Mathematics 70, Physics 72, Chemistry 73, Science 71, English 74
+Student 7: Mathematics 82, Physics 80, Chemistry 83, Science 81, English 82
+Student 8: Mathematics 74, Physics 76, Chemistry 77, Science 75, English 78
+Student 9: Mathematics 80, Physics 82, Chemistry 83, Science 81, English 84
+Student 10: Mathematics 72, Physics 74, Chemistry 75, Science 73, English 76

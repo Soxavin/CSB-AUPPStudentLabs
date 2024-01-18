@@ -1,0 +1,10 @@
+Student 1: Mathematics 100, Physics 98, Chemistry 86, Science 88, English 99
+Student 2: Mathematics 96, Physics 100, Chemistry 88, Science 84, English 100
+Student 3: Mathematics 73, Physics 99, Chemistry 90, Science 96, English 97
+Student 4: Mathematics 87, Physics 94, Chemistry 83, Science 97, English 96
+Student 5: Mathematics 95, Physics 85, Chemistry 99, Science 95, English 94
+Student 6: Mathematics 94, Physics 74, Chemistry 73, Science 84, English 91
+Student 7: Mathematics 86, Physics 95, Chemistry 85, Science 94, English 90
+Student 8: Mathematics 62, Physics 97, Chemistry 84, Science 84, English 69
+Student 9: Mathematics 99, Physics 84, Chemistry 93, Science 95, English 92
+Student 10: Mathematics 67, Physics 87, Chemistry 97, Science 85, English 89
