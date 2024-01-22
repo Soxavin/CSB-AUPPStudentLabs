@@ -80,7 +80,7 @@ class Playlist:
     def display_playlist(self):
         print(f"\nPlaylist: {self.name}")
         for i, song in enumerate(self.songs, start=1):
-            print(f"{i}. {song.title} - {song.artist}")
+            print(f"{i}. {song.title} - {song.artist} ({song.length:.2f} mns)")
 
 
 def main():
@@ -112,12 +112,17 @@ def main():
             album = input("Enter album: ")
             genre = input("Enter genre: ")
 
-            # Error handling for invalid input when converting to float
-            try:
-                length = float(input("Enter length (in minutes): "))
-            except ValueError:
-                print("Invalid input for length. Please enter a valid number.")
-                continue
+            while True:
+                try:
+                    length_input = input("Enter length (in minutes:seconds): ")
+                    minutes, seconds = map(int, length_input.split(':'))
+                    length = float(minutes) + float(seconds) / 60
+                    break  # Exit the loop if input is valid
+                except (ValueError, ValueError, IndexError):
+                    print("Invalid input for length. Please enter a valid format (e.g., 3:30 for 3 minutes and 30 seconds).")
+
+          
+
 
             song = Song(title, artist, album, genre, length)
             library.add_song(song)
